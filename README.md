@@ -10,14 +10,12 @@
 
 <br>
 
-Construyo **backends que llevan modelos de IA a producción**: APIs, pipelines de
-datos y sistemas de visión por computador que trabajan todos los días sobre una
-banda transportadora o un flujo de llamadas, no en un notebook.
+Diseño y llevo a producción **APIs, pipelines de datos y sistemas de visión por
+computador**: del entrenamiento del modelo al despliegue y a su operación diaria.
 
-Más de dos años haciéndolo con Python, Node.js/NestJS, PostgreSQL, Docker y AWS.
-Lo que me ocupa ahora son los sistemas que **deciden y se dejan auditar**: que no
-devuelvan solo una respuesta, sino el porqué, con la evidencia a la vista para
-comprobarla una por una.
+Más de dos años con Python, Node.js/NestJS, PostgreSQL, Docker y AWS. Me interesa
+que un sistema no entregue solo un resultado, sino que se pueda comprobar cómo
+llegó a él.
 
 <br>
 
@@ -31,7 +29,7 @@ comprobarla una por una.
 
 - Construyendo **[banking-voice-agent](https://github.com/acromaticodiego/banking-voice-agent)**: un agente de voz telefónico para verificación de identidad, con un presupuesto de 800 ms por turno y las sondas de viabilidad publicadas antes que el sistema.
 - Acabo de publicar **[auditable-kyc-agent](https://github.com/acromaticodiego/auditable-kyc-agent)**, un agente que decide sobre una cédula colombiana y cita la evidencia para que se pueda comprobar.
-- Lo que más me mueve es la **visión por computador**: modelos que ven y que tienen que acertar todos los días sobre una banda transportadora, un cultivo o una cámara de calle, no en un conjunto de prueba.
+- Manteniendo **[Traffic_Detector](https://github.com/acromaticodiego/Traffic_Detector)** y **[face-snapshot](https://github.com/acromaticodiego/face-snapshot)**, dos sistemas de visión por computador en tiempo real.
 
 ## Cómo trabajo
 
