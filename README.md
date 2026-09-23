@@ -31,7 +31,7 @@ comprobarla una por una.
 
 - Construyendo **[banking-voice-agent](https://github.com/acromaticodiego/banking-voice-agent)**: un agente de voz telefónico para verificación de identidad, con un presupuesto de 800 ms por turno y las sondas de viabilidad publicadas antes que el sistema.
 - Acabo de publicar **[auditable-kyc-agent](https://github.com/acromaticodiego/auditable-kyc-agent)**, un agente que decide sobre una cédula colombiana y cita la evidencia para que se pueda comprobar.
-- Buscando equipo en **fintech o banca** donde una decisión automática tenga que poder defenderse ante un auditor.
+- Lo que más me mueve es la **visión por computador**: modelos que ven y que tienen que acertar todos los días sobre una banda transportadora, un cultivo o una cámara de calle, no en un conjunto de prueba.
 
 ## Cómo trabajo
 
@@ -49,7 +49,7 @@ comprobarla una por una.
   "formacion": "Ingeniería Mecatrónica — ITM, Medellín",
   "ubicacion": "Medellín, Colombia",
   "experiencia": "+2 años",
-  "enfoque": ["APIs en producción", "IA agéntica", "visión por computador"],
+  "enfoque": ["visión por computador", "APIs en producción", "IA agéntica"],
   "construyendo": "agentes que deciden y explican con evidencia verificable",
   "idiomas": ["Español (nativo)", "Inglés (B1)"]
 }
@@ -161,7 +161,7 @@ SQL &amp; Databases · Platzi, 2025
 ---
 
 <p align="center">
-  <sub>Abierto a oportunidades como Ingeniero de IA / Backend.</sub><br>
+  <sub>Abierto a oportunidades en visión por computador, IA y backend.</sub><br>
   <a href="https://www.linkedin.com/in/juandiegoossa/">LinkedIn</a> ·
   <a href="mailto:juan.leesin@gmail.com">juan.leesin@gmail.com</a>
 </p>
