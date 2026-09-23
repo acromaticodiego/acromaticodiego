@@ -27,6 +27,19 @@ comprobarla una por una.
 
 <br>
 
+## Ahora mismo
+
+- Construyendo **[banking-voice-agent](https://github.com/acromaticodiego/banking-voice-agent)**: un agente de voz telefónico para verificación de identidad, con un presupuesto de 800 ms por turno y las sondas de viabilidad publicadas antes que el sistema.
+- Acabo de publicar **[auditable-kyc-agent](https://github.com/acromaticodiego/auditable-kyc-agent)**, un agente que decide sobre una cédula colombiana y cita la evidencia para que se pueda comprobar.
+- Buscando equipo en **fintech o banca** donde una decisión automática tenga que poder defenderse ante un auditor.
+
+## Cómo trabajo
+
+- **Todo número va con su tamaño de muestra y cómo se midió.** Si una cifra se apoya en un solo caso, lo digo en la misma línea.
+- **Línea base antes que modelo.** Comparo siempre contra unas reglas fijas: si el modelo no gana, no entra.
+- **Conjunto reservado que se mide una sola vez**, para que el resultado no sea el recuerdo de haber ajustado hasta que saliera.
+- **Tests y CI en cada proyecto**: 393 en el agente KYC, ~300 en face-snapshot, 262 en el detector de tránsito.
+
 ## Perfil
 
 ```json
