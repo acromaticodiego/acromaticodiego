@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-label="Juan Diego Ossa — Backend and AI Engineer">
+  <defs>
+    <linearGradient id="acento" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="50%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2f81f7" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#2f81f7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="rejilla" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#30363d"/>
+    </pattern>
+    <clipPath id="tarjeta">
+      <rect x="0" y="0" width="1000" height="290" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tarjeta)">
+    <rect width="1000" height="290" fill="url(#fondo)"/>
+    <rect width="1000" height="290" fill="url(#rejilla)" opacity="0.55"/>
+    <circle cx="830" cy="145" r="220" fill="url(#halo)"/>
+    <rect width="1000" height="4" fill="url(#acento)"/>
+
+    <!-- orbita decorativa -->
+    <g transform="translate(830 148)" fill="none" stroke="#30363d">
+      <circle r="106" stroke-opacity="0.9"/>
+      <circle r="74" stroke-opacity="0.75"/>
+      <circle r="42" stroke-opacity="0.6"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+        <circle cx="106" cy="0" r="5.5" fill="#2f81f7" stroke="none"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="11s" repeatCount="indefinite"/>
+        <circle cx="74" cy="0" r="4.5" fill="#a371f7" stroke="none"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="240" to="-120" dur="7s" repeatCount="indefinite"/>
+        <circle cx="42" cy="0" r="4" fill="#3fb950" stroke="none"/>
+      </g>
+      <circle r="13" fill="#0d1117" stroke="#484f58"/>
+      <circle r="5" fill="#f0f6fc" stroke="none">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <text x="58" y="104" font-size="52" font-weight="700" fill="#f0f6fc" letter-spacing="-0.5">Juan Diego Ossa</text>
+      <text x="60" y="140" font-size="19" font-weight="600" fill="#8b949e">Backend &amp; AI Engineer<tspan fill="#484f58">  ·  </tspan>Ingeniero Mecatrónico</text>
+
+      <g transform="translate(60 178)">
+        <text font-size="16" fill="#58a6ff" font-family="'Cascadia Code', 'Consolas', 'SF Mono', Menlo, monospace">
+          <tspan fill="#484f58">&gt; </tspan>sistemas que deciden y se dejan auditar
+        </text>
+        <rect x="316" y="-12" width="9" height="16" fill="#58a6ff">
+          <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <text x="60" y="222" font-size="13.5" fill="#6e7681" letter-spacing="0.6">Python · FastAPI · NestJS · PostgreSQL · Docker · AWS · PyTorch · YOLOv8 · OpenCV</text>
+
+      <g transform="translate(60 244)">
+        <path d="M6 0c3.3 0 6 2.7 6 6 0 4.5-6 11-6 11S0 10.5 0 6c0-3.3 2.7-6 6-6zm0 4a2 2 0 100 4 2 2 0 000-4z" fill="#6e7681"/>
+        <text x="20" y="13" font-size="13.5" fill="#6e7681">Medellín, Colombia</text>
+      </g>
+    </g>
+
+    <rect x="0" y="286" width="1000" height="4" fill="url(#acento)" opacity="0.35"/>
+  </g>
+</svg>
